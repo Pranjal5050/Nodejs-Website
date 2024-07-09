@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+body {
+ width: 100%;
+}
+
+.hero{
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: .1px;
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+  width: 750px;
+  height: 200px;
+  margin: 80px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#info {
+  width: 100%;
+  height: 100%;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+#activity {
+  color: #999999;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -.5px;
+  margin: 0;
+  padding: 0;
+}
+
+#stats {
+  margin: auto 0 15px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stats-text {
+  color: #5B5B5B;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.stats-text svg {
+  fill: #5B5B5B;
+  width: 20px;
+  height: 20px;
+}
+
+.stats-text span {
+  color: #000000;
+  font-weight: 800;
+  margin: 0 5px;
+}
+
+.btn-box{
+    margin: auto;
+}
+
+.btn2 {
+    width: 7vw;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.844);
+    border-radius: 5px;
+    border: none;
+    height: 45px;
+}
+
+.btn2:hover{
+  background-color: red;
+}
+
+
+.btn3 {
+    width: 7vw;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 45px;
+}
+
+.btn3:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: lightseagreen;
+}
+
+.container .cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .card{
+  margin: 10px;
+}
